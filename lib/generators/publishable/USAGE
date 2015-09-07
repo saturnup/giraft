@@ -1,0 +1,5 @@
+Description:
+    Adds published and published_at to an ActiveRecord model to allow it to be used with acts_as_publishable.
+
+Example:
+    rails generate publishable Post
