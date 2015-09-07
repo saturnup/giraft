@@ -4,11 +4,13 @@ module Giraft
 
     def publish!
       self.published = true
+      self.published_at = Time.now
       save!
     end
 
     def unpublish!
       self.published = false
+      self.published_at = nil
       save!
     end
 
