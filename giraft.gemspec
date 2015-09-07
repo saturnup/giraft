@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Giraft::VERSION
   s.authors     = ["John DeSilva"]
   s.email       = ["desilvjo@umich.edu"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Giraft."
-  s.description = "TODO: Description of Giraft."
+  s.homepage    = "http://github.com/saturnup/giraft"
+  s.summary     = "A Rails Plugin to manage drafts for publishable models."
+  s.description = "A Rails Plugin to manage drafts for publishable models."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]

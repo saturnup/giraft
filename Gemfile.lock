@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    giraft (0.0.1)
+    giraft (0.0.2)
       rails (~> 4.2.1)
 
 GEM
