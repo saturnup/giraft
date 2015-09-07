@@ -1,22 +1,12 @@
+require_relative 'publishable'
+
 module Giraft
   module ActsAsPublishable
     extend ActiveSupport::Concern
 
-    def publish!
-      self.published = true
-      self.published_at = Time.now
-      save!
-    end
-
-    def unpublish!
-      self.published = false
-      self.published_at = nil
-      save!
-    end
-
     module ClassMethods
       def acts_as_publishable(options = {})
-
+        self.include(Publishable)
       end
     end
   end
