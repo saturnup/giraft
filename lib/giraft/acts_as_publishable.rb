@@ -7,6 +7,11 @@ module Giraft
       save!
     end
 
+    def unpublish!
+      self.published = false
+      save!
+    end
+
     module ClassMethods
       def acts_as_publishable(options = {})
 
