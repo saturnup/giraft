@@ -20,8 +20,6 @@ module Giraft
       save!
     end
 
-    protected
-
     def publishable_validations
       []
     end
